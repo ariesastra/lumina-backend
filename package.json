@@ -1,0 +1,26 @@
+{
+  "name": "lumina-me",
+  "version": "1.0.0",
+  "description": "Create Crypto Currency Standing",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ariesastra/lumina-backend"
+  },
+  "author": "Arie Sastra",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "coingecko-api": "^1.0.10",
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "nodemon": "^2.0.9"
+  }
+}
